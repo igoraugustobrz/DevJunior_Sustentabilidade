@@ -111,6 +111,7 @@ ul {
     text-align: justify;
     margin: 1rem 10rem;
     font-size: var(--font-md);
+    text-indent: 50pt;
 }
 
 .container h2 {

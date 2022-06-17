@@ -89,6 +89,11 @@ ul {
     font-size: 35px;
 }
 
+.texto {
+    margin: 1rem 10rem;
+    text-indent: 50pt;
+}
+
 /*fim conteudo*/
 
 /*rodape*/
@@ -102,7 +107,7 @@ por isso tive que criar uma formatação só para ela */
 }
                         
 .fotopedro {
-     height: 220px;
+    height: 220px;
     width: 210px;
 }
                         
