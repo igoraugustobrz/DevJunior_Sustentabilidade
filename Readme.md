@@ -8,7 +8,7 @@
 ## Sobre este projeto
 Pensando em entregar um site de qualidade para um trabalho acadêmico e que estivesse dentro da proposta, criamos o Dev Júnior. A ideia desse site é enunciar sobre a sustentabilidade, bem como os seus três pilares (Pilar Econômico, Social e Ambiental) para mostrar a população geral a importância de se cuidar desses pilares e o impacto que eles causam quando são elaborados sustentavelmente. 
 
-Outros criadores: [Pedro](https://github.com/PHPPrado), [Kauê](https://github.com/iKaueMatos), [Gustavo Pacheco](https://github.com/Gusta9s) e [Gustavo Novais]()
+Outros criadores: [Pedro](https://github.com/PHPPrado), [Kauê](https://github.com/iKaueMatos), [Gustavo Pacheco](https://github.com/Gusta9s) e [Gustavo Novais](https://github.com/GustavoNovaisLima)
 
 ---
 
