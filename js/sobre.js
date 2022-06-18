@@ -1,3 +1,3 @@
 function x1(){
-   alert('Muito Obrigado, a DevJunior agradece o seu feedback!!');
+   alert('Muito Obrigado, a Dev Júnior agradece o seu feedback!!');
 }

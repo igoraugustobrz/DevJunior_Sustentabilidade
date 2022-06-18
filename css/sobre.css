@@ -102,15 +102,34 @@ por isso tive que criar uma formatação só para ela */
 /*Formatação das fotos na pagina*/
                         
 .inte {
-    height: 220px;
-    width: 210px;
+    height: 22s0px;
+    width: 180px;
 }
                         
 .fotopedro {
     height: 220px;
     width: 210px;
 }
-                        
+         
+.fotogustavo{
+    height: 220px;
+    width: 210px;
+}
+
+.fotokaue{
+    height: 220px;
+    width: 200px;
+}
+
+.fotopacheco{
+    height: 220px;
+    width: 200px;
+}
+
+.fotoigor{
+    height: 220px;
+    width: 200px;
+}
 .container {
     display: flex;
     width: 100%;
@@ -188,7 +207,7 @@ h4 {
 }
 
 /*redes sociais da parte contate-nos*/
-                        
+
 .email {
     color: red;
 }
@@ -196,7 +215,7 @@ h4 {
 .dis {
     color: blue;
 }
-                        
+
 footer {
     width: 100%;
     min-height: 250px;
