@@ -1,6 +1,6 @@
 # Dev Júnior - Sustentabilidade
 <div align="center">
-<img src="" width="2000px" alt="Imagem do site" />
+<img src="https://github.com/igoraugustobrz/DevJunior_Sustentabilidade/blob/main/img/Site.JPG" width="2000px" alt="Imagem do site" />
 </div>
 
 ---
