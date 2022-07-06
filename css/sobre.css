@@ -6,6 +6,7 @@
     margin: 0px;
     font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 /*nav bar*/
                         
@@ -106,27 +107,28 @@ por isso tive que criar uma formatação só para ela */
     width: 180px;
 }
                         
-.fotopedro {
+#fotopedro {
     height: 220px;
     width: 210px;
+
 }
          
-.fotogustavo{
+#fotogustavo{
     height: 220px;
     width: 210px;
 }
 
-.fotokaue{
+#fotokaue{
     height: 220px;
     width: 200px;
 }
 
-.fotopacheco{
+#fotopacheco{
     height: 220px;
     width: 200px;
 }
 
-.fotoigor{
+#fotoigor{
     height: 220px;
     width: 200px;
 }
@@ -137,7 +139,7 @@ por isso tive que criar uma formatação só para ela */
 }
                         
 .boxs {
-    padding: 15px;
+    padding: 1%;
     width: 100%;
 }
                         
@@ -252,9 +254,8 @@ span {
     height: 100vh;
 }
 
-/*fim rodape*/
-                        
-@media(max-width: 950px) {
+/*Responsividade do Site*/
+@media screen and (min-width: 320px){
     footer {
         flex-direction: column;
         padding: 0px;
@@ -264,4 +265,79 @@ span {
         text-align: center;
         padding: 30px;
     }
+    
+    h2{
+        text-align: center;
+    }
+
+    .texto{
+        margin: 2em 4em 0em 4em;
+    }
+}
+
+@media screen and(max-width: 500px){
+    footer {
+        flex-direction: column;
+    }
+    footer .boxs {
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+    
+    h2{
+        text-align: center;
+    }
+
+    .texto{
+        margin: 2em 4em 0em 4em;
+    }
+    #fotopedro{
+        width: 20vh;
+        height: 20vh;
+    }
+
+    
+    #fotogustavo{
+        width: 20vh;
+        height: 20vh;
+    }
+
+    
+    #fotokaue{
+        width: 20vh;
+        height: 20vh;
+    }
+
+    
+    #fotopacheco{
+        width: 20vh;
+        height: 20vh;
+    }
+
+    
+    #fotoigor{
+        width: 20vh;
+        height: 20vh;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+
+}
+
+@media screen and (min-width: 1200px){
+
+}
+
+@media screen and (min-width: 1364px){
+
+}
+
+@media screen and (min-width: 1600px){
+
 }

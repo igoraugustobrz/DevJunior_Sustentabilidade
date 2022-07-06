@@ -201,6 +201,11 @@ span {
         text-align: center;
         padding: 20px;
     }
+    
+    h2{
+        text-align: center;
+    }
+    
      :root {
         --font-xl: clamp(2rem, 2vw + 0.2rem, 8rem);
         --font-md: clamp(1.3rem, 1.5vw + 0.9rem, 1rem);

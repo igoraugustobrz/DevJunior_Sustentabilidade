@@ -20,6 +20,7 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 :root {
@@ -97,7 +98,6 @@ ul {
 
 .container h1 {
     color: rgb(21, 19, 19);
-    margin-top: 20px;
     font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin: 4rem 15rem 0rem 10rem;
@@ -105,20 +105,25 @@ ul {
     font-size: var(--font-xl);
     line-height: 0.8;
     font-weight: bold;
+
 }
 
 .container h1 img {
     position: relative;
     width: 100%;
     text-align: center;
+    right: 3.5vh;
+    left: 6vh;
+    bottom: 3.5vh;
 }
 
 .container p {
     text-align: justify;
     margin: 1rem 10rem;
-    margin-top: 2px;
+    margin-top: 3.5vh;
     font-size: var(--font-md);
     text-indent: 50pt;
+    top: 5vh;
 }
 
 .container h2 {
@@ -128,30 +133,13 @@ ul {
     font-size: var(--font-md);
 }
 
-.container h2 img {
-    position: relative;
-    width: 100%;
-}
-
 .container p img {
     position: relative;
     width: 100%;
+    bottom: 5vh;
 }
 
-h3 {
-    margin-top: 20px;
-    text-align: justify;
-}
-
-
-/*Fim do conteúdo do site*/
-
-
-/*rodape*/
-
-
-/*rodape*/
-
+/*Rodapé*/
 footer {
     width: 100%;
     min-height: 250px;
@@ -175,87 +163,84 @@ p {
     color: rgb(0, 0, 0);
 }
 
-h3 {
-    margin-top: 20px;
-    text-align: justify;
-}
-
 span {
     color: #000;
 }
 
 
-/*fim rodape*/
-
-
-/*reponsividade rodape*/
-
-@media(max-width: 950px) {
+/*Responsividade*/
+@media(max-width: 500px) {/*Até 500 de largura os seletores abaixo estarão funcionando*/
     footer {
         flex-direction: column;
+        width: 100%;
     }
+
     footer .boxs {
         width: 100%;
         text-align: center;
         padding: 20px;
     }
+
+    h2{
+        text-align: center;
+    }
+    
      :root {
         --font-xl: clamp(2rem, 2vw + 0.2rem, 8rem);
         --font-md: clamp(1.3rem, 1.5vw + 0.9rem, 1rem);
     }
+
     .container {
-        width: 1200xp;
+        width: 550px;
     }
+
     .container h1 {
         color: rgb(21, 19, 19);
-        margin-top: 20px;
         font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
-        margin: 4rem 15rem 4rem 10rem;
+        margin: 7rem 10rem -1.5rem 5rem;
         font-weight: 300px;
         font-size: 30px;
         line-height: 0.8;
         font-weight: bold;
+        font-size: 35px;
     }
+
     .container h1 img {
         position: relative;
-        width: 100%;
+        width: 120%;
         text-align: center;
         font-size: 30px;
+        right: 3.5vh;
+        left: auto;
+        bottom: 0vh;
     }
+
     .container p {
         text-align: justify;
-        margin: 1rem 10rem;
+        margin: 1rem 4rem;
+        right: 5vh;
         font-size: var(--font-md);
         font-size: 23px;
+        position: relative;
     }
+
     .container h2 {
         margin-top: 20px;
         text-align: justify;
-        margin: 1rem 10rem;
+        margin: 1rem 10rem 0rem 10rem;
         font-size: var(--font-md);
+        font-size: 35px;
     }
+
     .container h2 img {
         position: relative;
         width: 100%;
     }
+
     .container p img {
         position: relative;
         width: 100%;
+        top: 3vh;
     }
 }
-
-
-/*fim do rodape*/
-
-
-/*fim da nav bar*/
-
-
-/*fim do rodape*/
-
-
-/*estrutura de configuração fim */
-
-
-/*fim da nav bar*/
